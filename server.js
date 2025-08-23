@@ -69,7 +69,7 @@ app.get('/api/job/:jobId', (req, res) => {
 
 // تشغيل الخادم
 app.listen(PORT, () => {
-    console.log(`الخادم يعمل على المنفذ ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
 
 module.exports = app;
